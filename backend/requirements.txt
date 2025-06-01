@@ -1,0 +1,42 @@
+# Write dependencies like this fastapi not like This fastapi==0.115.12
+# Pls ensure this in this file 
+
+# Core FastAPI dependencies
+fastapi
+uvicorn[standard]
+pydantic[email]
+
+# Database dependencies
+motor
+python-dotenv
+
+# Authentication dependencies
+python-jose[cryptography]
+passlib[bcrypt]
+
+# Testing dependencies
+pytest
+pytest-asyncio
+httpx
+websockets
+
+# AI dependencies
+langchain-google-genai
+pinecone-client
+langchain-pinecone
+langchain-core
+langchain-community
+langgraph
+
+# Development dependencies
+black
+flake8
+
+# Scheduler dependencies
+apscheduler
+
+# Document processing dependencies
+python-multipart
+PyPDF2
+python-docx
+python-pptx
