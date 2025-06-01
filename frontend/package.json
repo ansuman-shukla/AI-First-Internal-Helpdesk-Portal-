@@ -1,6 +1,10 @@
 {
   "name": "frontend",
-  "homepage": "https://ansuman-shukla.github.io/AI-First-Internal-Helpdesk-Portal-/",
+  "homepage": "https://ansuman-shukla.github.io/Internal-Helpdesk-Portal/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ansuman-shukla/Internal-Helpdesk-Portal.git"
+  },
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,14 +13,13 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predepoly": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^1.9.0",
     "chart.js": "^4.4.9",
     "frontend": "file:",
-    "gh-pages": "^6.3.0",
     "react": "^19.1.0",
     "react-chartjs-2": "^5.3.0",
     "react-dom": "^19.1.0",
@@ -31,7 +34,9 @@
     "eslint": "^9.25.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
+    "gh-pages": "^6.3.0",
     "globals": "^16.0.0",
+    "rimraf": "^6.0.1",
     "vite": "^6.3.5"
   }
 }
