@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create axios instance with base configuration
 const api = axios.create({
-  baseURL: 'http://localhost:8000',
+  baseURL: 'https://ai-first-internal-helpdesk-portal-6ix9.onrender.com',
   headers: {
     'Content-Type': 'application/json',
   },
