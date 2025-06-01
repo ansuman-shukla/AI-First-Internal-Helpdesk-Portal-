@@ -1,5 +1,6 @@
 {
   "name": "frontend",
+  "homepage": "https://ansuman-shukla.github.io/AI-First-Internal-Helpdesk-Portal-/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predepoly": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^1.9.0",
